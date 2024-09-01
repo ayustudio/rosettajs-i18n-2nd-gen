@@ -37,4 +37,4 @@ This project demonstrates how to use RosettaJS-i18n in a Preact application.
 This example uses Preact CLI for simplicity. In a real-world application, you might want to use a more customized setup.
 
 Remember to properly handle language preferences, possibly storing them in local storage or syncing with a backend service.
-```
+
