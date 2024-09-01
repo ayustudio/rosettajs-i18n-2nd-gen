@@ -106,10 +106,7 @@ File: examples/preact-example/package.json
 ```
 
 File: examples/preact-example/README.md
-```markdown
-# RosettaJS-i18n Preact Example
 
-james
 # RosettaJS-i18n Preact Example
 
 This project demonstrates how to use RosettaJS-i18n in a Preact application.
