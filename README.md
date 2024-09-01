@@ -1,5 +1,4 @@
-File: README.md
-```markdown
+
 # RosettaJS-i18n
 
 [![npm version](https://img.shields.io/npm/v/rosettajs-i18n.svg)](https://www.npmjs.com/package/rosettajs-i18n)
