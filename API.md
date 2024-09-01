@@ -1,5 +1,3 @@
-File: API.md
-```markdown
 # RosettaJS-i18n API Documentation
 
 ## RosettaJS Class
