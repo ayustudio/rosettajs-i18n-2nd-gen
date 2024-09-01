@@ -1,5 +1,4 @@
-File: README.md
-```markdown
+
 # 🌐 RosettaJS-i18n
 
 [![npm version](https://img.shields.io/npm/v/rosettajs-i18n.svg)](https://www.npmjs.com/package/rosettajs-i18n)
@@ -7,7 +6,7 @@ File: README.md
 
 > RosettaJS-i18n is a lightweight internationalization (i18n) solution designed for small to medium e-commerce sites. It provides a simple, intuitive API for translations, pluralization, number and date formatting, and more.
 
----
+
 
 ## 📋 Features
 
@@ -20,7 +19,7 @@ File: README.md
 - ✅ TypeScript support
 - ✅ Testing utilities
 
----
+
 
 ## 🚀 Installation
 
