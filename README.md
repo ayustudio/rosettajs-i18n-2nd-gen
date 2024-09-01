@@ -1,30 +1,36 @@
 File: README.md
 ```markdown
-# RosettaJS-i18n
+# 🌐 RosettaJS-i18n
 
 [![npm version](https://img.shields.io/npm/v/rosettajs-i18n.svg)](https://www.npmjs.com/package/rosettajs-i18n)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-RosettaJS-i18n is a lightweight internationalization (i18n) solution designed for small to medium e-commerce sites. It provides a simple, intuitive API for translations, pluralization, number and date formatting, and more.
+> RosettaJS-i18n is a lightweight internationalization (i18n) solution designed for small to medium e-commerce sites. It provides a simple, intuitive API for translations, pluralization, number and date formatting, and more.
 
-## Features
+---
 
-- Basic translation with interpolation
-- Pluralization supporting common European languages
-- Number and date formatting
-- Small bundle size (~10KB minified)
-- Plugin system for extending functionality
-- Framework adapters for React, Vue, Svelte, and Preact
-- TypeScript support
-- Testing utilities
+## 📋 Features
 
-## Installation
+- ✅ Basic translation with interpolation
+- ✅ Pluralization supporting common European languages
+- ✅ Number and date formatting
+- ✅ Small bundle size (~10KB minified)
+- ✅ Plugin system for extending functionality
+- ✅ Framework adapters for React, Vue, Svelte, and Preact
+- ✅ TypeScript support
+- ✅ Testing utilities
+
+---
+
+## 🚀 Installation
 
 ```bash
 npm install rosettajs-i18n
 ```
 
-## Basic Usage
+---
+
+## 🛠️ Basic Usage
 
 ```javascript
 import { RosettaJS } from 'rosettajs-i18n';
@@ -63,7 +69,9 @@ console.log(i18n.pluralize('items', 1, { count: 1 })); // Output: Vous avez 1 ar
 console.log(i18n.pluralize('items', 5, { count: 5 })); // Output: Vous avez 5 articles
 ```
 
-## Advanced Usage
+---
+
+## 🔧 Advanced Usage
 
 ### Using Plugins
 
@@ -110,37 +118,29 @@ function Welcome({ name }) {
 }
 ```
 
-For examples with other frameworks, please check the `examples` directory in this repository.
+> For examples with other frameworks, please check the `examples` directory in this repository.
 
-## API Reference
+---
 
-For a detailed API reference, please see the [API documentation](API.md).
+## 📚 Documentation
 
-## Plugins
+- For a detailed API reference, please see the [API documentation](API.md).
+- For details on how to use plugins, please see the [Plugins documentation](PLUGINS.md).
 
-RosettaJS-i18n comes with several built-in plugins:
+---
 
-- Currency Conversion
-- RTL Support
-- Advanced Pluralization
-- Parsing
-- Language Detection
-- SSR Support
-
-For details on how to use these plugins, please see the [Plugins documentation](PLUGINS.md).
-
-## Comparison with Alternatives
+## 🔄 Comparison with Alternatives
 
 RosettaJS-i18n is designed to be a lightweight alternative to larger i18n libraries, specifically tailored for small to medium e-commerce sites. Here's how it compares to some popular alternatives:
 
 | Feature | RosettaJS-i18n | react-i18next | vue-i18n | i18next |
-|---------|----------------|----------------|----------|---------|
+|---------|:--------------:|:--------------:|:--------:|:-------:|
 | Bundle size | ~10KB | ~40KB | ~20KB | ~40KB |
-| Framework-agnostic | Yes | No (React-focused) | No (Vue-focused) | Yes |
-| Plugin system | Yes | Yes | Yes | Yes |
-| Built-in currency handling | Yes | No | No | No |
-| E-commerce focus | Yes | No | No | No |
-| SSR support | Yes (plugin) | Yes | Yes | Yes |
+| Framework-agnostic | ✅ | ❌ (React-focused) | ❌ (Vue-focused) | ✅ |
+| Plugin system | ✅ | ✅ | ✅ | ✅ |
+| Built-in currency handling | ✅ | ❌ | ❌ | ❌ |
+| E-commerce focus | ✅ | ❌ | ❌ | ❌ |
+| SSR support | ✅ (plugin) | ✅ | ✅ | ✅ |
 | Performance | Excellent | Good | Good | Good |
 | Learning curve | Low | Medium | Medium | Medium |
 | Community size | Small (new) | Large | Large | Large |
@@ -159,13 +159,17 @@ RosettaJS-i18n is designed to be a lightweight alternative to larger i18n librar
 
 6. **Community and Ecosystem**: As a newer library, RosettaJS-i18n has a smaller community compared to well-established alternatives. However, this also means it's more focused and potentially more agile in addressing user needs.
 
-Choose RosettaJS-i18n if you're working on a small to medium e-commerce site and prioritize a lightweight, performant solution with e-commerce-specific features. For larger, more complex applications or those requiring extensive community-supported plugins, you might consider the more established alternatives.
+> Choose RosettaJS-i18n if you're working on a small to medium e-commerce site and prioritize a lightweight, performant solution with e-commerce-specific features. For larger, more complex applications or those requiring extensive community-supported plugins, you might consider the more established alternatives.
 
-## Contributing
+---
+
+## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
-## License
+---
+
+## 📄 License
 
 RosettaJS-i18n is [MIT licensed](LICENSE).
 ```
