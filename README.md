@@ -1,0 +1,1 @@
+# rosettajs-i18n-2nd-gen
